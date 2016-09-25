@@ -10,6 +10,9 @@
 
 
 ##[Interface BaseStream [ T, Stream T ] - Generators](https://github.com/vicboma1/Java8-Stream/blob/master/src/test/java/BaseStreamTest.java)
+```
+DoubleStream, IntStream, LongStream, Stream<T>
+```
 
 * static T Stream T concat(Stream<? extends T> a, Stream<? extends T> b)
 * static T Stream T of(T... values)
