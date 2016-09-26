@@ -1,4 +1,4 @@
-# Java8 Stream
+# Java 8 Stream
 
 
 ##[Interface Stream.Builder<T>](https://github.com/vicboma1/Java8-Stream/blob/master/src/test/java/BuilderTest.java)
