@@ -28,8 +28,7 @@ install: true
 
 script:
   - jdk_switcher use oraclejdk8
-  - mvn test -f ./source/pom.xml
+  - mvn test -f ./pom.xml
 
 after_success:
-  - cd source
   - mvn clean test cobertura:cobertura coveralls:report
