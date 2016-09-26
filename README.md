@@ -28,7 +28,7 @@ DoubleStream, IntStream, LongStream, Stream<T>
 ##[Instance Methods](https://github.com/vicboma1/Java8-Stream/blob/master/src/test/java/InstanceMethodsStreamTest.java)
 
 * boolean	allMatch (Predicate<? super T> predicate)
-*	boolean anyMatch (Predicate<? super T> predicate)
+* boolean anyMatch (Predicate<? super T> predicate)
 * [R,A] R	collect (Collector<? super T,A,R> collector)
 * [R] R	  collect (Supplier<R> supplier, BiConsumer<R,? super T> accumulator, BiConsumer<R,R> combiner)
 * long	  count()
