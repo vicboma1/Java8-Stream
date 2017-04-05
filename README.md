@@ -1,12 +1,12 @@
 # Java 8 - Stream
 
-##Build
+## Build
 [![Build Status](https://travis-ci.org/vicboma1/Java8-Stream.svg?branch=master)](https://travis-ci.org/vicboma1/Java8-Stream) 
 [![Java](https://img.shields.io/badge/Java-1.8.0-blue.svg?plastic)](http://kotlinlang.org) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.eluder.coveralls/coveralls-maven-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.eluder.coveralls/coveralls-maven-plugin/) [![Junit](https://img.shields.io/badge/Junit-4.11-orange.svg?plastic)](http://junit.org)
 [![Analytics](https://ga-beacon.appspot.com/UA-68658653-8
 /kotlin-koans/readme)](https://github.com/igrigorik/ga-beacon)
 
-##[Interface Stream.Builder<T>](https://github.com/vicboma1/Java8-Stream/blob/master/src/test/java/BuilderTest.java)
+## [Interface Stream.Builder<T>](https://github.com/vicboma1/Java8-Stream/blob/master/src/test/java/BuilderTest.java)
 
 * void 	                      accept(T t)
 * default Stream.Builder<T> 	add(T t)
@@ -14,7 +14,7 @@
 
 
 
-##[Interface BaseStream [ T, Stream T ] - Generators](https://github.com/vicboma1/Java8-Stream/blob/master/src/test/java/BaseStreamTest.java)
+## [Interface BaseStream [ T, Stream T ] - Generators](https://github.com/vicboma1/Java8-Stream/blob/master/src/test/java/BaseStreamTest.java)
 ```
 DoubleStream, IntStream, LongStream, Stream<T>
 ```
@@ -30,7 +30,7 @@ DoubleStream, IntStream, LongStream, Stream<T>
 
 
 
-##[Instance Methods](https://github.com/vicboma1/Java8-Stream/blob/master/src/test/java/InstanceMethodsStreamTest.java)
+## [Instance Methods](https://github.com/vicboma1/Java8-Stream/blob/master/src/test/java/InstanceMethodsStreamTest.java)
 
 * boolean	allMatch (Predicate<? super T> predicate)
 * boolean anyMatch (Predicate<? super T> predicate)
